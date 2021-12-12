@@ -5,7 +5,7 @@ import (
 )
 
 func helloWorld(c *fiber.Ctx){
-	c.Send("Hello")
+	c.Send("Hello World")
 }
 
 func main() {
